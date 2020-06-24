@@ -1,27 +1,20 @@
 # NgAjax
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+[simple ajax repo](https://github.com/bresleveloper/db)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+`ng build --output-path docs --base-href https://bresleveloper.github.io/avra7-ngAjax/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+repo: `https://github.com/bresleveloper/avra7-ngAjax/`
 
-## Build
+[link to GHP](https://bresleveloper.github.io/avra7-ngAjax/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# HW
+1. do simple async `async 1.html`
+2. do simple ajax `async 2.html`
+3. create your own repo with 2 `.json` files, each with 2 array
+4. with simple ajax get and show 4 arrays, in `ul`'s (4xUL)
+5. do 4 with angular
+6. do 5 again

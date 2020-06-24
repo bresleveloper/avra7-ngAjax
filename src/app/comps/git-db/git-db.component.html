@@ -1,0 +1,19 @@
+<p>git-db works!</p>
+
+
+
+<div class="orange">
+	<div class="txt">{{dbAjaxContent["txt"]}}</div>	
+</div>
+
+
+<div class="orange">
+	<div [class]="key" *ngFor="let key of keysArr">{{dbAjaxContent[key]}}</div>
+</div>
+
+
+<div class="orange">
+	<div class="txt" [innerHTML]="dbAjaxContent['html']"></div>	
+</div>
+
+
