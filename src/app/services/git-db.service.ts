@@ -17,10 +17,10 @@ export class GitDbService {
 
   constructor(private http:HttpClient) { }
 
-  httpGetTxt(url:string) : Observable<string>{
+  /*httpGetTxt(url:string) : Observable<string>{
     console.log("httpGetTxt");
     return this.http.get<string>(url,{ responseType: 'text'});
-  }
+  }*/
 
 
   httpGet(url:string) : Observable<string>{
