@@ -1,0 +1,27 @@
+<p>new-db-json works!</p>
+
+
+<div *ngIf="fullResponse">
+    <h1>students</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.students">{{s.name}} - {{s.age}}</li>
+    </ul>
+
+    <br><hr><br>
+
+    <h1>jiraffs</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.jiraffs">{{s.name}} - {{s.age}}</li>
+    </ul>
+
+    <br><hr><br>
+
+    <h1>stars</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.startInSky">{{s.StarName}} - {{s.StarWeight}}</li>
+    </ul>
+
+    <br><hr><br>
+
+
+</div>

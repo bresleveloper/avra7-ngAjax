@@ -14,7 +14,7 @@ export class GitDbComponent implements OnInit {
   keysArr = []
 
   ngOnInit(): void {
-    this.shuki.httpGetTxt(this.shuki.urlzIndex.txt)
+   /* this.shuki.httpGetTxt(this.shuki.urlzIndex.txt)
       .subscribe(ajaxStringResults => {
         this.dbAjaxContent["txt"] = ajaxStringResults
       })
@@ -24,7 +24,7 @@ export class GitDbComponent implements OnInit {
       this.keysArr.push(key)
       this.shuki.httpGetTxt(this.shuki.urlzIndex[key])
         .subscribe(strRes => this.dbAjaxContent[key] = strRes)
-    }
+    }*/
   }
 
 }

@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { GitDbComponent } from './comps/git-db/git-db.component';
+import { NewDbJsonComponent } from './comps/new-db-json/new-db-json.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GitDbComponent
+    GitDbComponent,
+    NewDbJsonComponent
   ],
   imports: [
     BrowserModule,HttpClientModule

@@ -8,23 +8,30 @@ import { Observable } from 'rxjs';
 })
 export class GitDbService {
 
-  public urlzIndex = {
+  constructor(private http:HttpClient) { }
+
+  httpGet(url:string) : Observable<any>{
+    return this.http.get(url)
+  }
+
+  httpGetType<T>(url:string) : Observable<T>{
+    return this.http.get<T>(url)
+  }
+
+
+
+
+    /*public urlzIndex = {
     "txt" : "https://raw.githubusercontent.com/bresleveloper/db/master/ajax/say%20ho.txt",
     "json" : "https://raw.githubusercontent.com/bresleveloper/db/master/ajax/someDB.json",
     "js" : "https://raw.githubusercontent.com/bresleveloper/db/master/ajax/someDB.js",
     "html" : "https://raw.githubusercontent.com/bresleveloper/db/master/ajax/comp-calc.html",
-  }
-
-  constructor(private http:HttpClient) { }
-
-  /*httpGetTxt(url:string) : Observable<string>{
-    console.log("httpGetTxt");
-    return this.http.get<string>(url,{ responseType: 'text'});
   }*/
 
 
-  httpGet(url:string) : Observable<string>{
-    return this.http.get<string>(url)
-  }
+    /*httpGetTxt(url:string) : Observable<string>{
+    console.log("httpGetTxt");
+    return this.http.get<string>(url,{ responseType: 'text'});
+  }*/
 
 }
